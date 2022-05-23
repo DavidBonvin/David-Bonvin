@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.projets{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+  
+}
+.projets h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.projets p {
+    text-align: justify;
+    width:272px;
+    margin: auto;
+    font-size: 18px;
+}
+.projets__1{
+    width:272px;
+height: 218px;
+display: flex;
+flex-direction: column;
+background: linear-gradient(180deg, #3771C8 0%, rgba(55, 113, 200, 0) 100%);
+margin: auto;
+
+}
+.projects__header{
+    width: 100%;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.projects__foother {
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects__foother__button{
+    width: 108px;
+    height: 33px;
+    background-color: black;
+    color: white;
+}
+.projets__2{
+    Width:272px;
+Height: 218px;
+}
+.cajas__projets__ima{
+    width: 68px;
+    height: 68px;
+}
+

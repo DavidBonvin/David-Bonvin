@@ -1,0 +1,33 @@
+
+
+
+    /* Styles  defecto pour les telephons */
+     
+
+
+
+
+@media screen and (min-width: 415px) and (max-width: 1024px){
+    /* Styles pour les tables */
+    header {
+      background-color: rgb(49, 97, 209);
+    }
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1920px){
+    /* Styles pour les ordenateurs */
+    header {
+      background-color: rgb(38, 0, 255);
+    }
+}
+
+
+
+@media screen and (min-width: 1921px){
+    /* Styles pour les ordenateurs 4K*/
+    header {
+      background-color: rgb(0, 255, 102);
+    }
+}
