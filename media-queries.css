@@ -3,25 +3,107 @@
 
     /* Styles  defecto pour les telephons */
      
-
+:root {
+  --font-weightH2: 700;
+  --font-ZiseH2: 200%;
+  --font-ziseP: 180%;
+}
 
 
 
 @media screen and (min-width: 415px) and (max-width: 1024px){
     /* Styles pour les tables */
     header {
-      background-color: rgb(49, 97, 209);
+      /*background-color: rgb(49, 97, 209);*/
+      background-image:url("./images/Imagen-arbolHeader.svg")  ;
+      background-repeat: no-repeat;
+      background-size: auto;
+      
+
     }
+    .foto_david{
+      width: 35%;
+      height: 35%;
+  }
+.header_h1 {
+   
+    color: white; 
+}
+
+.header__developer__title{
+    
+    color: white;
+}
+.header_icon_in {
+  padding: 4em;
+}
+
+.container-competencesIcons {
+  width: 80%;
+margin: auto;
+}
+/* P*/
+.Qui_suis-je p {
+  font-size:var(--font-ziseP);
+}
+.formations p {
+  font-size: var(--font-ziseP);
+}
+
+.Autres_formations p {
+  font-size: var(--font-ziseP);
+}
+.projets p {
+  font-size: var(--font-ziseP);
+}
+.loisirs p {
+  font-size: var(--font-ziseP);
+}
+.animations p {
+  font-size: var(--font-ziseP);
+}
+/* h2*/
+.Qui_suis-je h2 {
+  font-size: 200%;
+  font-weight: var(--font-weightH2);
+}.competences h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.formations h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.Autres_formations h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.projets h2{
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.loisirs h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.animations h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.Loisirs__top {
+  width: 80%;
+  margin: auto;
+  padding: 1%;
+  justify-content: space-evenly;
+}
+.Loisirs__top p {
+  width: 60%;
+  
+}
 }
 
 
 
-@media screen and (min-width: 1025px) and (max-width: 1920px){
-    /* Styles pour les ordenateurs */
-    header {
-      background-color: rgb(38, 0, 255);
-    }
-}
 
 
 

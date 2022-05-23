@@ -70,8 +70,8 @@ header {
 }
 /* section Qui suis-je?*/
 
-.Qui_suis-je h1 {
-    font-family: DM Sans;
+.Qui_suis-je h2 {
+   
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -106,7 +106,7 @@ header {
 .competences {
     padding-bottom: 30px;
 }
-.competences h1 {
+.competences h2 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -279,7 +279,7 @@ Height: 218px;
 }
 .Loisirs__top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px;
 }
 .Loisirs__top p {
@@ -312,7 +312,7 @@ footer h2{
 }
 .footer__icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 30px;
     padding-top: 20px;
 }
