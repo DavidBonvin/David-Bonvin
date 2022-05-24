@@ -1,91 +1,155 @@
 @media screen and (min-width: 1025px) and (max-width: 1920px){
     /* Styles pour les ordenateurs */
     header {
-        /*background-color: rgb(49, 97, 209);*/
-        background-image:url("./images/Imagen-arbolHeader.svg")  ;
-        background-repeat: no-repeat;
-        background-size: auto;
-        
-  
-      }
-      .foto_david{
-        width: 35%;
-        height: 35%;
-    }
-  .header_h1 {
-     
-      color: white; 
-  }
-  
-  .header__developer__title{
+      /*background-color: rgb(49, 97, 209);*/
+      background-image:url("./images/Imagen-arbolHeader.svg")  ;
+      background-repeat: no-repeat;
+      background-size: auto;
       
-      color: white;
+
+    }
+    .foto_david{
+      width: 35%;
+      height: 35%;
   }
-  .header_icon_in {
-    padding: 4em;
-  }
-  
-  .container-competencesIcons {
-    width: 80%;
-  margin: auto;
-  }
-  /* P*/
-  .Qui_suis-je p {
-    font-size:var(--font-ziseP);
-  }
-  .formations p {
-    font-size: var(--font-ziseP);
-  }
-  
-  .Autres_formations p {
-    font-size: var(--font-ziseP);
-  }
-  .projets p {
-    font-size: var(--font-ziseP);
-  }
-  .loisirs p {
-    font-size: var(--font-ziseP);
-  }
-  .animations p {
-    font-size: var(--font-ziseP);
-  }
-  /* h2*/
-  .Qui_suis-je h2 {
-    font-size: 200%;
-    font-weight: var(--font-weightH2);
-  }.competences h2 {
-    font-weight: var(--font-weightH2);
-    font-size: var(--font-ZiseH2);
-  }
-  .formations h2 {
-    font-weight: var(--font-weightH2);
-    font-size: var(--font-ZiseH2);
-  }
-  .Autres_formations h2 {
-    font-weight: var(--font-weightH2);
-    font-size: var(--font-ZiseH2);
-  }
-  .projets h2{
-    font-weight: var(--font-weightH2);
-    font-size: var(--font-ZiseH2);
-  }
-  .loisirs h2 {
-    font-weight: var(--font-weightH2);
-    font-size: var(--font-ZiseH2);
-  }
-  .animations h2 {
-    font-weight: var(--font-weightH2);
-    font-size: var(--font-ZiseH2);
-  }
-  .Loisirs__top {
-    width: 80%;
-    margin: auto;
-    padding: 1%;
-    justify-content: space-evenly;
-  }
-  .Loisirs__top p {
-    width: 60%;
+.header_h1 {
+   
+    color: white; 
+}
+
+.header__developer__title{
     
+    color: white;
+}
+.header_icon_in {
+  padding: 4em;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   }
+.Qui_suis-je {
+  width: 500px;
+  margin: auto;
+  grid-area: 1 / 3 / 13 / 7;
+}
+.competences{
+  width: 500px;
+  margin: auto;
+  
+  grid-area: 1 / 7 / 13 / 11; 
+}
+.container-competencesIcons {
+  width: 80%;
+margin: auto;
+}
+.parent1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
   }
+.formations {
+  width: 500px;
+  margin: 20px;
+  grid-area: 2 / 3 / 13 / 7;
+}
+.Autres_formations{
+  width: 500px;
+  margin: 20px;
+  grid-area: 2 / 7 / 13 / 11;
+}
+.parent2 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+.projets {
+  width: 500px;
+  margin: auto;
+  grid-area: 2 / 3 / 13 / 7;
+}
+.loisirs{
+  width: 500px;
+  margin: auto;
+  grid-area: 2 / 7 / 13 / 11;
+}
+/* P*/
+.Qui_suis-je p {
+  font-size:var(--font-ziseP);
+}
+.formations p {
+  font-size: var(--font-ziseP);
+}
+
+.Autres_formations p {
+  font-size: var(--font-ziseP);
+}
+.projets p {
+  font-size: var(--font-ziseP);
+}
+.loisirs p {
+  font-size: var(--font-ziseP);
+}
+.animations p {
+  font-size: var(--font-ziseP);
+}
+/* h2*/
+.Qui_suis-je h2 {
+  font-size: 200%;
+  font-weight: var(--font-weightH2);
+}.competences h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.formations h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.Autres_formations h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.projets h2{
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.loisirs h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.animations h2 {
+  font-weight: var(--font-weightH2);
+  font-size: var(--font-ZiseH2);
+}
+.container-competencesIcons {
+  width: 500px;
+}
+.Loisirs__top {
+  width: 90%;
+  margin: auto;
+  padding: 1%;
+  justify-content: space-evenly;
+}
+.Loisirs__top p {
+  width: 60%;
+  
+}
+.animations {
+  margin: 40px;
+}
+footer {
+  margin: 40px;
+}
+.footer__icons {
+  width: 800px;
+  margin: auto;
+}
+}
   

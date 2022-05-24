@@ -37,10 +37,33 @@
 .header_icon_in {
   padding: 4em;
 }
-
+.Qui_suis-je {
+  width: 500px;
+  margin: auto;
+}
+.competences{
+  width: 500px;
+  margin: auto;
+}
 .container-competencesIcons {
   width: 80%;
 margin: auto;
+}
+.formations {
+  width: 500px;
+  margin: auto;
+}
+.Autres_formations{
+  width: 500px;
+  margin: auto;
+}
+.projets {
+  width: 500px;
+  margin: auto;
+}
+.loisirs{
+  width: 500px;
+  margin: auto;
 }
 /* P*/
 .Qui_suis-je p {
@@ -90,8 +113,11 @@ margin: auto;
   font-weight: var(--font-weightH2);
   font-size: var(--font-ZiseH2);
 }
+.container-competencesIcons {
+  width: 500px;
+}
 .Loisirs__top {
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding: 1%;
   justify-content: space-evenly;
