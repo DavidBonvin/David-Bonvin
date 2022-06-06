@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    
+}
+.section__freelance {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: rgb(188, 233, 217);
+    padding-bottom: 30px;
+  
+}
+.section__freelance h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.section__freelance p {
+    text-align: justify;
+    width:300px;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.section__freelance__img {
+ display: flex;
+ justify-content: center;    
+ 
+}
+.date__sjt{
+    text-align: center;
+}

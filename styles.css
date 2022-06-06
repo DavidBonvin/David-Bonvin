@@ -11,6 +11,15 @@ font-family: 'Inter', sans-serif;
 */
   
 /*  hbvdv */
+:root {
+    --font-weightH2: 500;
+    --font-ZiseH2: 150%;
+    --font-ziseP: 120%;
+    --width-sections: 500px; 
+    --margin-sections: auto;
+    --pading-sections: 5px;
+  
+  }
 
 * {
     box-sizing: border-box;
@@ -73,8 +82,8 @@ header {
 .Qui_suis-je h2 {
    
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
     line-height: 23px;
 
     text-align: center;
@@ -85,7 +94,7 @@ header {
 .Qui_suis-je p {
     font-family:'DM Sans';
     text-align: center;
-    font-size: medium;
+    font-size: var(--font-ziseP);
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -108,6 +117,7 @@ header {
 }
 .competences h2 {
     text-align: center;
+    font-size: var(--font-ZiseH2);
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -125,15 +135,16 @@ margin: 15px;
     width: 100%;
     min-width: 320px;
     height: 100%;
-    background-color: rgb(223, 245, 229);
+    background-color: rgb(250, 250, 250);
     padding-top: 20px;
+    padding-bottom: 30px;
   
 }
 .formations h2{
     font-family: DM Sans;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
     text-align: center;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -142,7 +153,7 @@ margin: 15px;
     text-align:justify;
     width:320px;
     margin: auto;
-    font-size: 14px;
+    font-size: var(--font-ziseP);
     margin-bottom: 10px;
 }
 .formation__p__center {
@@ -167,15 +178,16 @@ margin: 15px;
     position: relative;
     width: 100%;
     min-width: 320px;
-    height: 100vh;
-    background-color: beige;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
   
 }
 .Autres_formations h2{
     font-family: DM Sans;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
     text-align: center;
     padding-top: 40px;
     margin-bottom: 30px;
@@ -184,7 +196,7 @@ margin: 15px;
     text-align: justify;
     width:300px;
     margin: auto;
-    font-size: 18px;
+    font-size: var(--font-ziseP);
     margin-bottom: 30px;
 }
 .autres_formations__img {
@@ -210,8 +222,8 @@ margin: 15px;
 .projets h2{
     font-family: DM Sans;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
     text-align: center;
     padding: 20px;
 }
@@ -219,7 +231,7 @@ margin: 15px;
     text-align: justify;
     width:272px;
     margin: auto;
-    font-size: 18px;
+    font-size: var(--font-ziseP);
     padding-bottom: 20px;
 }
 .projets__1{
@@ -271,8 +283,8 @@ Height: 218px;
 .loisirs h2 {
     font-family: DM Sans;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight:var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
     text-align: center;
     padding-top: 10px;
     margin-bottom: 10px;
@@ -286,17 +298,54 @@ Height: 218px;
     text-align: justify;
     width:200px;
     margin: auto;
-    font-size: 14px;
+    font-size: var(--font-ziseP);
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 5px;
 }
+/* Freelance*/
+.section__freelance {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: rgb(188, 233, 217);
+    padding-bottom: 30px;
+  
+}
+.section__freelance h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+.section__freelance p {
+    text-align: justify;
+    width:300px;
+    margin: auto;
+    font-size: var(--font-ziseP);
+    margin-bottom: 30px;
+}
+.section__freelance__img {
+ display: flex;
+ justify-content: center;    
+ 
+}
+.date__sjt{
+    text-align: center;
+}
+
 /* Animations*/
 .animations {
     padding: 20px;
 }
 .animations h2 {
     text-align: center;
+    font-size: var(--font-ZiseH2);
+    font-weight: var(--font-weightH2);
 }
 
 
@@ -307,7 +356,8 @@ footer h1 {
     padding-bottom: 10px;
 }
 footer h2{
-    font-size: medium;
+    font-size: var(--font-ZiseH2);
+    font-weight: var(--font-weightH2);
     text-align: center;
 }
 .footer__icons{

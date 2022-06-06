@@ -1,4 +1,15 @@
 @media screen and (min-width: 1025px) and (max-width: 1920px){
+  :root {
+    --font-weightH2: 700;
+    --font-ZiseH2: 200%;
+    --font-ziseP: 150%;
+    --width-sections: 500px; 
+    --margin-sections: auto;
+    --pading-sections: 15px;
+    --width-articles: 330px;
+    --padding-articles: 5px;
+    --margin-articles: auto;
+  }
     /* Styles pour les ordenateurs */
     header {
       /*background-color: rgb(49, 97, 209);*/
@@ -25,61 +36,97 @@
   padding: 4em;
 }
 .parent {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+  .Qui_suis-je {
+    width: var(--width-sections);
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
+    
   }
-.Qui_suis-je {
-  width: 500px;
-  margin: auto;
-  grid-area: 1 / 3 / 13 / 7;
-}
-.competences{
-  width: 500px;
-  margin: auto;
-  
-  grid-area: 1 / 7 / 13 / 11; 
-}
-.container-competencesIcons {
-  width: 80%;
-margin: auto;
-}
-.parent1 {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  .competences{
+    width: var(--width-sections);
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
+    
   }
-.formations {
-  width: 500px;
-  margin: 20px;
-  grid-area: 2 / 3 / 13 / 7;
-}
-.Autres_formations{
-  width: 500px;
-  margin: 20px;
-  grid-area: 2 / 7 / 13 / 11;
-}
-.parent2 {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  .container-competencesIcons {
+    width: var(--width-sections);
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
   }
-.projets {
-  width: 500px;
-  margin: auto;
-  grid-area: 2 / 3 / 13 / 7;
-}
-.loisirs{
-  width: 500px;
-  margin: auto;
-  grid-area: 2 / 7 / 13 / 11;
-}
+  .formations {
+    width: 100%;
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
+    display: grid;
+/*grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(8, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;*/
+    
+  }
+  .h2formations{
+    grid-area: 1 / 3 / 2 / 5; 
+  }
+  .formation1 {
+    width: var(--width-articles);
+    padding: var(--padding-articles);
+    grid-area: 2 / 1 / 5 / 3;
+    margin: var(--margin-articles);
+  }
+  .formation2{
+    width: var(--width-articles);
+    padding: var(--padding-articles);
+    grid-area: 2 / 3 / 5 / 5;  ; 
+    margin: var(--margin-articles);
+  }
+  .formation3 {
+    width: var(--width-articles);
+    padding: var(--padding-articles);
+    grid-area: 2 / 5 / 5 / 7;
+    margin: var(--margin-articles);
+  }
+  .formation4 {
+    width: var(--width-articles);
+    padding: var(--padding-articles);
+    grid-area: 5 / 1 / 10 / 3;
+    margin: var(--margin-articles);
+  }
+  .formation5 {
+    width: var(--width-articles);
+    padding: var(--padding-articles);
+    grid-area: 5 / 3 / 10 / 5;
+    margin: var(--margin-articles);
+  }
+
+  .Autres_formations{
+    width: var(--width-articles);
+    padding: var(--padding-articles);
+    grid-area: 5 / 5 / 10 / 7;  
+    margin: var(--margin-articles);
+  }
+  .projets {
+    width: var(--width-sections);
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
+  }
+  .loisirs{
+    width: var(--width-sections);
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
+  }
+  .section__freelance {
+    width: var(--width-sections);
+    margin: var(--margin-sections);
+    padding: var(--pading-sections);
+  }
+
+
+
+
 /* P*/
 .Qui_suis-je p {
   font-size:var(--font-ziseP);
