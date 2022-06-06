@@ -1,5 +1,5 @@
-@media screen and (min-width: 1025px) and (max-width: 1920px){
-  :root {
+@media screen and (min-width: 1921px) and (max-width: 3920px){
+:root {
     --font-weightH2: 700;
     --font-ZiseH2: 180%;
     --font-ziseP: 150%;
@@ -13,7 +13,7 @@
     /* Styles pour les ordenateurs */
     header {
       /*background-color: rgb(49, 97, 209);*/
-      background-image:url("./images/Imagen-arbolHeader.svg")  ;
+      background-color: aliceblue ;
       background-repeat: no-repeat;
       background-size: auto;
       
@@ -225,4 +225,3 @@ footer {
   margin: auto;
 }
 }
-  

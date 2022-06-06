@@ -92,11 +92,11 @@ header {
 
 }
 .Qui_suis-je p {
-    font-family:'DM Sans';
-    text-align: center;
+    text-align: justify;
+    width:300px;
+    margin: auto;
     font-size: var(--font-ziseP);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
     
@@ -112,6 +112,15 @@ header {
     margin-right:auto; 
 }
 /*Competences*/
+.parent1 h2 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
 .competences {
     padding-bottom: 30px;
 }
@@ -139,6 +148,9 @@ margin: 15px;
     padding-top: 20px;
     padding-bottom: 30px;
   
+}
+.formations article {
+    padding: 1em;
 }
 .formations h2{
     font-family: DM Sans;
@@ -179,7 +191,7 @@ margin: 15px;
     width: 100%;
     min-width: 320px;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: beige;
     padding-bottom: 30px;
   
 }
@@ -304,12 +316,21 @@ Height: 218px;
     padding-right: 5px;
 }
 /* Freelance*/
+.parent3 h2 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: var(--font-weightH2);
+    font-size: var(--font-ZiseH2);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
 .section__freelance {
     position: relative;
     width: 100%;
     min-width: 320px;
     height: 100%;
-    background-color: rgb(188, 233, 217);
+    
     padding-bottom: 30px;
   
 }

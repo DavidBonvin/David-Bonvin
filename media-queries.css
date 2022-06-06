@@ -3,12 +3,6 @@
 
     /* Styles  defecto pour les telephons */
      
-
-
-
-
-@media screen and (min-width: 415px) and (max-width: 1024px){
-  
 :root {
   --font-weightH2: 700;
   --font-ZiseH2: 200%;
@@ -19,6 +13,11 @@
 
 }
 
+
+
+@media screen and (min-width: 415px) and (max-width: 1024px){
+
+  
     /* Styles pour les tables */
     header {
       /*background-color: rgb(49, 97, 209);*/
@@ -48,6 +47,13 @@
   width: var(--width-sections);
   margin: var(--margin-sections);
   padding: var(--pading-sections);
+}
+.Qui_suis-je p {
+  text-align: justify;
+    width:400px;
+    margin: auto;
+    font-size: var(--font-ziseP);
+    margin-bottom: 30px;
 }
 .competences{
   width: var(--width-sections);
