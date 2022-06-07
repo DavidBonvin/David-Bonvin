@@ -52,6 +52,9 @@ header {
     align-self: flex-end;
     padding: 1.5em;
 }
+path {
+   fill: black; 
+}
 .header_images_title {
 
     padding: 1em;

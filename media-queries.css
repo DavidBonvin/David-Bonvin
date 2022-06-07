@@ -43,6 +43,9 @@
 .header_icon_in {
   padding: 4em;
 }
+path {
+  fill: white; 
+}
 .Qui_suis-je {
   width: var(--width-sections);
   margin: var(--margin-sections);
