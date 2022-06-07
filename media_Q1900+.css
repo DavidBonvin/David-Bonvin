@@ -1,7 +1,7 @@
-@media screen and (min-width: 1921px) and (max-width: 3920px){
+@media screen and (min-width: 1721px) and (max-width: 3920px){
 :root {
     --font-weightH2: 700;
-    --font-ZiseH2: 180%;
+    --font-ZiseH2: 200%;
     --font-ziseP: 150%;
     --width-sections: 500px; 
     --margin-sections: auto;
@@ -13,7 +13,7 @@
     /* Styles pour les ordenateurs */
     header {
       /*background-color: rgb(49, 97, 209);*/
-      background-color: aliceblue ;
+      background-image: url(./images/Fondo1.svg);
       background-repeat: no-repeat;
       background-size: auto;
       

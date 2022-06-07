@@ -1,7 +1,7 @@
-@media screen and (min-width: 1025px) and (max-width: 1920px){
+@media screen and (min-width: 1025px) and (max-width: 1720px){
   :root {
     --font-weightH2: 700;
-    --font-ZiseH2: 180%;
+    --font-ZiseH2: 200%;
     --font-ziseP: 150%;
     --width-sections: 500px; 
     --margin-sections: auto;
@@ -46,6 +46,9 @@
     margin: var(--margin-sections);
     padding: var(--pading-sections);
     
+  }
+  .Qui_suis-je p {
+    width: 500px;
   }
   .competences{
     width: var(--width-sections);
@@ -112,6 +115,7 @@ grid-row-gap: 0px;
     padding: var(--padding-articles);
     grid-area: 4 / 5 / 8 / 7;
     margin: var(--margin-articles);
+    
   }
   /* ///////*/ 
 
@@ -175,7 +179,7 @@ grid-row-gap: 0px;
 }
 /* h2*/
 .Qui_suis-je h2 {
-  font-size: 200%;
+  font-size: var(--font-ZiseH2);
   font-weight: var(--font-weightH2);
 }.competences h2 {
   font-weight: var(--font-weightH2);
