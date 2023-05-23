@@ -15,7 +15,7 @@
 
 
 
-@media screen and (min-width: 552px) and (max-width: 1024px){
+@media screen and (min-width: 320px) and (max-width: 915px){
 
   
     /* Styles pour les tables */
@@ -86,7 +86,7 @@ path {
 .loisirs{
   width: var(--width-sections);
   margin: var(--margin-sections);
-  padding: var(--pading-sections);
+  /* padding: var(--pading-sections); */
 }
 .section__freelance {
   width: var(--width-sections);

@@ -36,6 +36,9 @@
   padding: 4em;
   margin-bottom: 20px;
 }
+path {
+  fill: white; 
+}
 .parent {
   display: flex;
   justify-content: space-evenly;
@@ -127,7 +130,7 @@ grid-row-gap: 0px;
   .loisirs{
     width: var(--width-sections);
     margin: var(--margin-sections);
-    padding: var(--pading-sections);
+    /* padding: var(--pading-sections); */
   }
   .section__freelance {
     width: 100%;
@@ -139,11 +142,14 @@ grid-row-gap: 0px;
 
 .parent3 {
     position: relative;
-    width: 100%;
+    width: 80%;
     min-width: 320px;
     height: 100%;
     background-color: rgb(188, 233, 217);
     padding-bottom: 30px;
+    margin: auto;
+    
+   
 }
 .parent3 h2 {
     text-align: center;
