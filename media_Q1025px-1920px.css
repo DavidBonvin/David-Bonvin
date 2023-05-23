@@ -37,11 +37,9 @@ path {
 }
 .header_icon_in {
   padding: 4em;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
-path {
-  fill: white; 
-}
+
 .parent {
   display: flex;
   justify-content: space-evenly;
