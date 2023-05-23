@@ -32,6 +32,9 @@
     
     color: white;
 }
+path {
+  fill: white; 
+}
 .header_icon_in {
   padding: 4em;
   margin-bottom: 70px;
@@ -129,7 +132,7 @@ grid-row-gap: 0px;
   .projets {
     width: var(--width-sections);
     margin: var(--margin-sections);
-    padding: var(--pading-sections);
+    /* padding: var(--pading-sections); */
   }
   .loisirs{
     width: var(--width-sections);
