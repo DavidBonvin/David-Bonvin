@@ -14,8 +14,8 @@ html {
     width: 100%;
     min-width: 320px;
     height: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
     background-color:#FDEDEC;
   
 }

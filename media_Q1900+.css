@@ -36,6 +36,9 @@
   padding: 4em;
   margin-bottom: 20px;
 }
+path {
+  fill: white; 
+}
 .parent {
   display: flex;
   justify-content: space-evenly;
@@ -126,8 +129,11 @@ grid-row-gap: 0px;
   }
   .loisirs{
     width: var(--width-sections);
-    margin: var(--margin-sections);
-    padding: var(--pading-sections);
+   height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:auto;
+    padding-right:auto;
   }
   .section__freelance {
     width: 100%;
@@ -193,6 +199,7 @@ grid-row-gap: 0px;
   font-weight: var(--font-weightH2);
   font-size: var(--font-ZiseH2);
 }
+
 .loisirs h2 {
   font-weight: var(--font-weightH2);
   font-size: var(--font-ZiseH2);
